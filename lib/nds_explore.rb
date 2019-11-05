@@ -12,7 +12,9 @@ end
 
 def print_first_directors_movie_titles
   
-  #directors_database[0][:movies].length
+  directors_database[0][:movies].length.times do |index|
+    puts directors_database[0][:movies][index][:title]
+  end
   
   nil
 end
