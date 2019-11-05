@@ -20,4 +20,5 @@ def print_first_directors_movie_titles
 end
 
 
-pp directors_database[0][:movies].length
+#pp directors_database[0][:movies].length
+print_first_directors_movie_titles
